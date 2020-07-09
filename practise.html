@@ -1,0 +1,78 @@
+﻿<doctype! html>
+<html>
+<meta charset="utf-8">
+<meta name="viewpoint" content="width=device-width, inital-scale=1.0">
+<meta name="author" content="Usman Kamaldeen">
+<meta name="keywords" content="Pizza" "Best Pizza">
+<link rel="stylesheet" href="style.css" />
+<head>
+<title>My Webpage></title>
+</head>
+
+<body>
+	<header class="main-header">
+		<h1 style="color: black">Pizza Palace</h1>
+		<h3>A taste is all you need!!!</h3>
+	</header>
+
+        <p style="color: black">Pizza is a savory dish of Italian origin consisting of usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients which is the baked at a high temperature, traditionally in a wood-fired oven.</p>
+        
+    <h2 style="color: black">Place Order</h2>
+        
+    <h3 style="color: black">Delivery Or Pick Up:</h3>
+        <input name="Delivery" type="radio" value="Delivery"/>Delivery<br>
+        <input name="Pick Up" type="radio" value="Pick Up"/>Pick Up<br>
+        
+    <p style="color: black">Customer's information:</p>
+    <form method="post" action="place-order.php">
+        <input name="Address" placeholder="Address" class="lg-input"/><br>
+        <input name="Phone No" placeholder="Phone No" class="lg-input"/><br>
+        <input name="City" placeholder="City" class="sm-input"/><br>
+        <input name="Zip" placeholder="Zip code" class="sm-input"/><br>
+    <p style="color: black">Customers can choose the ingredients they want in their pizza using the check boxes below</p>
+    
+    <p style="color: black">Ingredients:</p>
+    </form>
+    <main>
+        <form method="post" action="place-order.php">
+            <input name="Virgin olive oil" type="checkbox"/>Virgin olive oil<br>
+            <input name="Tomato sauce" type="checkbox"/>Tomato sauce<br>
+            <input name="Firm mozarella cheese" type="checkbox"/>Firm mozarella cheese<br>
+            <input name="Fresh soft mozarella cheese" type="checkbox"/>Fresh soft mozarella cheese<br>
+            <input name="Fontina cheese" type="checkbox"/>Fontina cheese<br>
+            <input name="Parmesan cheese" type="checkbox"/>Parmesan cheese<br>
+            <input name="Feta cheese" type="checkbox"/>Feta cheese<br>
+            <input name="Mushrooms" type="checkbox"/>Mushrooms<br>
+            <input name="Bell peppers" type="checkbox"/>Bell peppers<br>
+            <input name="Italian pepperoncini" type="checkbox"/>Italian pepperoncini<br>
+            <input name="Italian sausage" type="checkbox"/>Italian sausage<br>
+            <input name="Chopped fresh basil" type="checkbox"/>Chopped fresh basil<br>
+            <input name="Baby arugula" type="checkbox"/>Baby arugula<br>
+            <input name="Pesto" type="checkbox"/>Pesto<br>
+            <input name="Pepperoni" type="checkbox"/>Pepperoni<br>
+            <input name="Onions" type="checkbox"/>Onions<br>
+            <input name="Ham" type="checkbox"/>Ham<br>
+        </form>
+        </main>
+        <br>
+        <h4 style="color: black">Size:</h4>
+        <select name="size">
+            <option value="12">12inches-$15</option>
+            <option value="16">16inches-$20</option>
+            <option value="20">20inches-$25</option>
+            <option value="24">24inches-$30</option>
+        </select><br>
+        <br>
+        <br>
+        <button type="submit" href="£">Place order</button>
+	
+    <br>
+    <br>
+    <footer>
+    Copyright 2020.
+    
+    </footer>
+
+</body>
+
+</html>

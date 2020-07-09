@@ -1,0 +1,54 @@
+﻿body{
+    background: url(images.jpeg);
+    background-repeat: round;
+    padding: 10px;
+    color: black;
+    font-family: fantasy sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+main{
+    padding: 10px;
+    color: black;
+    font-family: fantasy sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 30px;
+}
+main:hover{
+    color: lawngreen
+}
+h3{
+    color: inherit;
+    font-family: fantasy sans-serif;
+    font-size: 30px;
+}
+footer{
+    padding: 20px;
+    margin: auto;
+    border-top: 2px solid;
+    background: url("images%20(2).jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: black;
+    position: absolute;
+}
+.main-header{
+    border-bottom: 2px solid;
+    font-family: monospace sans-serif;
+}
+h1{
+    font-family: cursive;
+    font-size: 70px bold;
+    font-stretch: semi-expanded;
+    color: indigo;
+}
+header{
+    padding: 20px;
+    margin: auto;
+    background: url("images%20(1).jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
